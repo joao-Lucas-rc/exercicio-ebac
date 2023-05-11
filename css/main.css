@@ -1,0 +1,111 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+header .contener{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+header li a{
+    color: #f5f6fa;
+    text-decoration: none;
+}
+.contener{
+    width: 1366px;
+    margin: 0 auto;
+}
+.artigos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.artigos article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+.artigos article{
+    width: 30%;
+}
+section{
+    padding: 16px 0;
+}
+section h2, .artigos article {
+    margin:16px ;
+}
+.artigos article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.artigos article a{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.artigos article a:hover{
+    text-decoration: underline;
+}
+.artigos article p,
+.artigos article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.artigos article h3{
+    font-size: 24px;
+}
+.artigos article h2{
+    font-size: 32px;
+}
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#sports .artigos article a{
+    background-color: rgba(0, 255, 0, 0.8);
+}
+#economia{
+    background-color: #fffa65;
+}
+#economia .artigos article a{
+    background-color: #ff9f1a;
+}
+#tecnologia .artigos article img{
+    max-width: 400px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+#entretenimento .artigos article img{
+    max-width: 400px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+#entretenimento{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+#tecnologia{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+#entretenimento .artigos article a{
+    background-color: crimson;
+}
+#tecnologia .artigos article a{
+    background-color:darkcyan;
+}
+
